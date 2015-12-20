@@ -1,0 +1,47 @@
+{
+  "name": "allomani-fujitsusvagents",
+  "version": "0.1.0",
+  "author": "allomani",
+  "summary": "Install Fujitsu Servers Agents",
+  "license": "Apache 2.0",
+  "source": "https://github.com/allomani/puppet-fujitsusvagents",
+  "project_page": "https://github.com/allomani/puppet-fujitsusvagents",
+  "issues_url": "https://github.com/allomani/puppet-fujitsusvagents/issues",
+  "operatingsystem_support": [
+    {
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ],
+      "operatingsystem": "RedHat"
+    },
+    {
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ],
+      "operatingsystem": "CentOS"
+    },
+    {
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ],
+      "operatingsystem": "OracleLinux"
+    },
+    {
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ],
+      "operatingsystem": "Scientific"
+    }
+  ],
+  "dependencies": [
+    {"version_requirement":">= 1.0.0","name":"puppetlabs-stdlib"}
+  ]
+}
